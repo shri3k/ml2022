@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlzoomcamp_2022"
+version = "0.1.0"
+description = ""
+authors = ["shri3k <github@yojan.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+numpy = "^1.23.3"
+pandas = "^1.4.4"
+httpx = "^0.23.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
